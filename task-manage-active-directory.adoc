@@ -18,9 +18,9 @@ summary: 如果您變更了DNS伺服器或Active Directory網域、您需要修�
 
 .步驟
 . 開啟工作環境。
-. 按一下 image:screenshot_gallery_options.gif[""] 按鈕、然後按一下 * 管理 Active Directory * 。
+. 按一下 image:screenshot_gallery_options.gif["具有三個點的圖示"] 按鈕、然後按一下 * 管理 Active Directory * 。
 +
-如果未設定 Active Directory 、您可以立即新增一個 Active Directory 。如果已設定、您可以使用修改或刪除設定 image:screenshot_gallery_options.gif[""] 按鈕。
+如果未設定 Active Directory 、您可以立即新增一個 Active Directory 。如果已設定、您可以使用修改或刪除設定 image:screenshot_gallery_options.gif["具有三個點的圖示"] 按鈕。
 
 . 指定 SMB 伺服器的設定：
 +
