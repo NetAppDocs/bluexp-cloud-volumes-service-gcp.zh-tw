@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: cloud volumes service for gcp, google cloud, cloud volumes, create cloud volumes, discover cloud volumes service for gcp, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, create snapshots 
-summary: 在 Cloud Volumes Service Cloud Manager 中建立一個適用於 Google Cloud 的工作環境、以建立及管理磁碟區和快照。 
+summary: 在Cloud Volumes Service BlueXP中建立適用於Google Cloud的功能、以建立及管理磁碟區和快照。 
 ---
 = 建立Cloud Volumes Service 適用於Google Cloud工作環境的功能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在 Cloud Volumes Service Cloud Manager 中建立一個適用於 Google
 
 
 [role="lead"]
-在Cloud Volumes Service Cloud Manager中建立適用於Google Cloud的支援環境、以便建立及管理磁碟區和快照。
+在Cloud Volumes Service BlueXP中建立適用於Google Cloud的支援環境、以便建立及管理磁碟區和快照。
 
 無論您已經從Google Cloud Console建立磁碟區、或是剛註冊Cloud Volumes Service 使用Google Cloud的版本、但目前還沒有磁碟區、第一步是根據您的GCP訂閱、為磁碟區建立工作環境。
 
@@ -30,7 +30,7 @@ TIP: 如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針
 
 
 .步驟
-. 在 Cloud Manager 中、新增工作環境、選取位置 * Google Cloud * 、然後按一下 * 繼續 * 。
+. 在BlueXP中、新增工作環境、選取位置* Google Cloud *、然後按一下*繼續*。
 . 選取 * Cloud Volumes Service 《 * 》 * 《 * 》 * 、然後按一下 * 「 Continue * 」。
 +
 image:screenshot_add_cvs_gcp_working_env.png["為 Cloud Volumes Service 簽署以供簽署的功能性功能提供工作環境的快照。"]
@@ -48,11 +48,11 @@ image:screenshot_add_cvs_gcp_credentials.png["為 Cloud Volumes Service GCP 訂�
 
 
 
-Cloud Manager 會顯示 Cloud Volumes Service 您的 Google Cloud 工作環境的功能。
+BlueXP會顯示Cloud Volumes Service 您的Google Cloud工作環境需求。
 
 image:screenshot_cvs_gcp_cloud.png["適用於 Google Cloud 工作環境的功能快照 Cloud Volumes Service 。"]
 
-如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。您可以從 Cloud Manager 新增其他雲端磁碟區。
+如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。您可以從BlueXP新增其他雲端磁碟區。
 
 如果此訂閱不存在任何雲端磁碟區、請立即建立。
 

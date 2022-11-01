@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove working environment, delete working environment, remove cloud volumes service, remove, delete 
-summary: 您可以從 Cloud Volumes Service Cloud Manager 移除適用於 Google Cloud 訂閱的功能、以及所有現有的磁碟區。磁碟區不會刪除、只會從 Cloud Manager 介面移除。 
+summary: 您可以從Cloud Volumes Service BlueXP移除適用於Google Cloud訂閱的功能、以及所有現有的磁碟區。磁碟區不會刪除、只會從BlueXP介面移除。 
 ---
-= 從 Cloud Volumes Service Cloud Manager 移除
+= 從Cloud Volumes Service BlueXP移除
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: 您可以從 Cloud Volumes Service Cloud Manager 移除適用於 Google
 
 
 [role="lead"]
-您可以從 Cloud Volumes Service Cloud Manager 移除適用於 Google Cloud 訂閱的功能、以及所有現有的磁碟區。磁碟區不會刪除、只會從 Cloud Manager 介面移除。
+您可以從Cloud Volumes Service BlueXP移除適用於Google Cloud訂閱的功能、以及所有現有的磁碟區。磁碟區不會刪除、只會從BlueXP介面移除。
 
 
-TIP: 不 Cloud Volumes Service 支援從 Cloud Manager 刪除您的 for Google Cloud 訂閱。您只能透過 Google Cloud Console 執行此作業。
+TIP: 不Cloud Volumes Service 支援從BlueXP刪除您的for Google Cloud訂閱。您只能透過 Google Cloud Console 執行此作業。
 
 .步驟
 . 開啟工作環境。

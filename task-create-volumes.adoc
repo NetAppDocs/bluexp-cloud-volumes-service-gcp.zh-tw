@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-volumes.html 
 keywords: cloud volumes service for gcp, google cloud, cloud volumes, create cloud volumes, mount volume 
-summary: Cloud Manager 可讓您根據 Cloud Volumes Service 您的需求來建立雲端磁碟區、以供 Google Cloud 訂閱。建立磁碟區之後、請取得相關的掛載命令、以便將磁碟區掛載到用戶端。 
+summary: 利用BlueXP、您可以根據Cloud Volumes Service 自己的需求來建立雲端磁碟區、以便訂閱Google Cloud。建立磁碟區之後、請取得相關的掛載命令、以便將磁碟區掛載到用戶端。 
 ---
 = 建立及掛載磁碟區
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager 可讓您根據 Cloud Volumes Service 您的需求來建�
 
 
 [role="lead"]
-Cloud Manager 可讓您根據 Cloud Volumes Service 您的需求來建立雲端磁碟區、以供 Google Cloud 訂閱。建立磁碟區之後、請取得相關的掛載命令、以便將磁碟區掛載到用戶端。
+利用BlueXP、您可以根據Cloud Volumes Service 自己的需求來建立雲端磁碟區、以便訂閱Google Cloud。建立磁碟區之後、請取得相關的掛載命令、以便將磁碟區掛載到用戶端。
 
 
 
@@ -118,7 +118,7 @@ image:screenshot_cvs_smb_details.png["快照顯示 SMB Cloud Volumes Service 版
 
 == 掛載雲端磁碟區
 
-從 Cloud Manager 存取掛載指示、以便將磁碟區掛載至主機。
+從BlueXP中存取掛載指示、以便將磁碟區掛載到主機。
 
 
 NOTE: 使用用戶端所支援的反白傳輸協定/方言。

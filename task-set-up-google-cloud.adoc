@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-google-cloud.html 
 keywords: setup, set up, api, service account, requirements, permissions 
-summary: Cloud Manager需要透過Cloud Volumes Service Google Cloud服務帳戶存取不必要的API及適當權限。 
+summary: BlueXP需要透過Cloud Volumes Service Google Cloud服務帳戶存取功能、以及適當的權限。 
 ---
 = 設定Google Cloud
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager需要透過Cloud Volumes Service Google Cloud服務帳戶
 
 
 [role="lead"]
-Cloud Manager需要透過Cloud Volumes Service Google Cloud服務帳戶存取不必要的API及適當權限。
+BlueXP需要透過Cloud Volumes Service Google Cloud服務帳戶存取功能、以及適當的權限。
 
 
 
@@ -28,7 +28,7 @@ Cloud Manager需要透過Cloud Volumes Service Google Cloud服務帳戶存取不
 
 == 設定服務帳戶
 
-完成下列工作、讓Cloud Manager能夠存取您的Google Cloud專案：
+完成下列工作、以便BlueXP存取您的Google Cloud專案：
 
 * 建立新的服務帳戶
 * 將新的服務帳戶成員新增至專案、並指派給專案特定的角色（權限）

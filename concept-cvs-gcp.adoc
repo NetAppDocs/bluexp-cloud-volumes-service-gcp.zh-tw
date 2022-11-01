@@ -31,9 +31,9 @@ summary: 適用於 Google Cloud 的 NetApp Cloud Volumes Service 解決方案可
 
 == 成本
 
-由適用於 Google Cloud 的 NetApp 所建立的 Volume Cloud Volumes Service 、將由您訂閱服務的費用支付、而非透過 Cloud Manager 。
+由適用於Google Cloud的NetApp所建立的Volume Cloud Volumes Service 、將會從訂閱服務的費用中扣除、而非透過BlueXP（前身為Cloud Manager）。
 
-從 Cloud Volumes Service Cloud Manager 探索適用於 Google Cloud 的地區或磁碟區不需付費。
+探索Cloud Volumes Service Google Cloud區域或BlueXP Volume不需付費。
 
 link:https://console.cloud.google.com/marketplace/product/endpoints/cloudvolumesgcp-api.netapp.com?q=cloud%20volumes%20service["在Google Cloud Marketplace中檢視價格"^]
 
@@ -47,13 +47,13 @@ https://cloud.netapp.com/cloud-volumes-global-regions#cvsGc["檢視支援的Goog
 
 == 開始之前
 
-Cloud Manager 可探索 Cloud Volumes Service GCP 訂閱和 Volume 的現有功能。請參閱 https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud 文件"^] 如果您尚未設定訂閱、
+BlueXP可探索Cloud Volumes Service GCP訂閱和Volume的現有功能。請參閱 https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud 文件"^] 如果您尚未設定訂閱、
 
 
 
 == 取得協助
 
-請使用 Cloud Manager 聊天室、瞭解 Cloud Volumes Service Cloud Manager 中有關功能不全的常見問題。
+請使用BlueXP聊天室、瞭解Cloud Volumes Service 有關BlueXP中的功能運作的一般問題。
 
 如需 Cloud Volumes Service 有關適用於 Google Cloud 的一般問題、請寄送電子郵件至 NetApp 的 Google Cloud Team ： gcinfo@netapp.com 。
 
@@ -63,6 +63,6 @@ Cloud Manager 可探索 Cloud Volumes Service GCP 訂閱和 Volume 的現有功�
 
 == 相關連結
 
-* https://cloud.netapp.com/cloud-volumes-service-for-gcp["NetApp Cloud Central ： Cloud Volumes Service 適用於 Google Cloud 的解決方案"^]
+* https://cloud.netapp.com/cloud-volumes-service-for-gcp["NetApp BlueXP：Cloud Volumes Service Google Cloud的基礎"^]
 * https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud 文件"^]
 
