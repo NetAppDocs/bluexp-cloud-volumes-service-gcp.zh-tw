@@ -110,6 +110,7 @@ image:screenshot_cvs_smb_details.png["快照顯示 SMB Cloud Volumes Service 版
 . 按一下 * 新增 Volume * 。
 
 
+.結果
 新磁碟區會新增至工作環境。
 
 繼續掛載雲端磁碟區。
