@@ -31,11 +31,9 @@ TIP: 如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針
 
 
 .步驟
-. 在BlueXP中、新增工作環境、選取位置* Google Cloud *、然後按一下*繼續*。
-. 選取 * Cloud Volumes Service 《 * 》 * 《 * 》 * 、然後按一下 * 「 Continue * 」。
-+
-image:screenshot_add_cvs_gcp_working_env.png["為 Cloud Volumes Service 簽署以供簽署的功能性功能提供工作環境的快照。"]
-
+. 從BlueXP導覽功能表中、選取*儲存設備> Canvas*。
+. 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「* Google Cloud Platform *」。
+. 選取「*探索*」旁邊Cloud Volumes Service 的「。
 . 提供 Cloud Volumes Service 有關您的不訂閱資訊：
 +
 .. 輸入您要使用的工作環境名稱。
