@@ -31,7 +31,7 @@ summary: 適用於 Google Cloud 的 NetApp Cloud Volumes Service 解決方案可
 
 == 成本
 
-由適用於Google Cloud的NetApp所建立的Volume Cloud Volumes Service 、將會從訂閱服務的費用中扣除、而非透過BlueXP（前身為Cloud Manager）。
+Cloud Volumes Service for Google Cloud 所建立的磁碟區、是由您訂閱服務而非透過 BlueXP 付費。
 
 探索Cloud Volumes Service Google Cloud區域或BlueXP Volume不需付費。
 

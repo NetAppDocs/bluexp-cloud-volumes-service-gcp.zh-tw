@@ -24,7 +24,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
@@ -291,7 +290,6 @@
   <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">如果未設定 Active Directory 、您可以立即新增一個 Active Directory 。如果已設定、您可以使用修改或刪除設定 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按鈕。</block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">具有三個點的圖示。</block>
   <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">按一下 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> 按一下頁面頂端的按鈕、然後按一下「 * 移除 Cloud Volumes Service 此功能 * 」。</block>
-  <block id="fd17cbb3db356dbaaa35d12e13567cab" category="paragraph">由適用於Google Cloud的NetApp所建立的Volume Cloud Volumes Service 、將會從訂閱服務的費用中扣除、而非透過BlueXP（前身為Cloud Manager）。</block>
   <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">探索Cloud Volumes Service Google Cloud區域或BlueXP Volume不需付費。</block>
   <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP可探索Cloud Volumes Service GCP訂閱和Volume的現有功能。請參閱<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未設定訂閱、</block>
   <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">請使用BlueXP聊天室、瞭解Cloud Volumes Service 有關BlueXP中的功能運作的一般問題。</block>
@@ -467,4 +465,6 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="ccf469f042f13df256e3337ee42f8ef7" category="paragraph">Cloud Volumes Service for Google Cloud 所建立的磁碟區、是由您訂閱服務而非透過 BlueXP 付費。</block>
 </blocks>
