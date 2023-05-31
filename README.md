@@ -1,1 +1,1 @@
-# cloud-manager-cloud-volumes-service-gcp
+# bluexp-cloud-volumes-service-gcp
