@@ -175,7 +175,6 @@
   <block id="66335d9ae4276106da10a758c0c3c8b7" category="paragraph">Cloud Console會根據此名稱產生服務帳戶ID。如有必要、請編輯ID：您稍後無法變更ID。</block>
   <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">若要立即設定存取控制項、請按一下「*建立*」、然後從頁面底部按一下「*完成*」、然後繼續下一步。</block>
   <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">從「 _IAM 」頁面按一下「 * 新增 * 」、然後填寫「 _Add Memu__ 」頁面中的欄位：</block>
-  <block id="91193149b6c0dbfe2760ec8c62b016e7" category="list-text">在 New Members （新成員）欄位中、輸入完整的服務帳戶 ID 、例如 user1-service-account-cvs@project1.iam.gserviceaccount.com 。</block>
   <block id="e6915ea331526f7f3221d5b019733157" category="list-text">新增以下角色：</block>
   <block id="ea34dd9c3c884049d43a2ee08126a1e2" category="list-text">_NetApp Cloud Volumes 管理 _</block>
   <block id="a69f1e2412a22a1f3153b3553fb2a1d1" category="list-text">運算網路檢視器 _</block>
@@ -469,4 +468,6 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">升級Cloud Volumes ONTAP 更新版的更新版</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
+  <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">在 New Members （新成員）欄位中、輸入完整服務帳戶 ID 。</block>
+  <block id="403ed3249b6fe978861df3ca728e55f6" category="paragraph">例如： \user1-service-account-cvs@project1.iam.gserviceaccount.com</block>
 </blocks>

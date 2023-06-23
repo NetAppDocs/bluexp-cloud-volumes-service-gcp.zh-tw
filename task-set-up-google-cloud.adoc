@@ -46,7 +46,10 @@ Cloud Console會根據此名稱產生服務帳戶ID。如有必要、請編輯ID
 . 若要立即設定存取控制項、請按一下「*建立*」、然後從頁面底部按一下「*完成*」、然後繼續下一步。
 . 從「 _IAM 」頁面按一下「 * 新增 * 」、然後填寫「 _Add Memu__ 」頁面中的欄位：
 +
-.. 在 New Members （新成員）欄位中、輸入完整的服務帳戶 ID 、例如 user1-service-account-cvs@project1.iam.gserviceaccount.com 。
+.. 在 New Members （新成員）欄位中、輸入完整服務帳戶 ID 。
++
+例如： \user1-service-account-cvs@project1.iam.gserviceaccount.com
+
 .. 新增以下角色：
 +
 *** _NetApp Cloud Volumes 管理 _
