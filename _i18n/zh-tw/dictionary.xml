@@ -2,8 +2,6 @@
 <blocks>
   <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">適用於Google Cloud文件Cloud Volumes Service</block>
   <block id="5747722bb189495cdccebf12276e2ffd" category="doc">建立Cloud Volumes Service 適用於Google Cloud工作環境的功能</block>
-  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">無論您已經從Google Cloud Console建立磁碟區、或是剛註冊Cloud Volumes Service 使用Google Cloud的版本、但目前還沒有磁碟區、第一步是根據您的GCP訂閱、為磁碟區建立工作環境。</block>
-  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。如果您尚未新增任何雲端磁碟區以供 GCP 訂閱、請在建立新的工作環境之後再新增。</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針對每個專案執行此工作。</block>
   <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">新增每個專案的訂閱時、您必須提供下列資訊：</block>
   <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">服務帳戶認證（您下載的 Json 私密金鑰）</block>
@@ -14,8 +12,6 @@
   <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">複製 / 貼上您在先前步驟中下載的 Json 私密金鑰。</block>
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">選取 Google Cloud 專案的名稱。</block>
   <block id="26983a904e0717c520032a2178795368" category="list-text">按一下 * 繼續 * 。</block>
-  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">為 Cloud Volumes Service GCP 訂閱新增認證的快照。</block>
-  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">適用於 Google Cloud 工作環境的功能快照 Cloud Volumes Service 。</block>
   <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">如果此訂閱不存在任何雲端磁碟區、請立即建立。</block>
@@ -147,19 +143,8 @@
   <block id="2c55e8dc4183c50c0009f5d04bc6a083" category="list-text">進行變更、然後按一下 * 更新磁碟區 * 。</block>
   <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">掛載雲端 Volume</block>
   <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">繼續 <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>。</block>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">請依照下列步驟快速入門、或依照連結取得完整詳細資料。</block>
-  <block id="04476610d425410da3c197a32de6a851" category="doc">Google Cloud的功能快速入門Cloud Volumes Service</block>
-  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">瞭解如何啟用API</block>
-  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>。</block>
-  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">瞭解如何設定服務帳戶</block>
-  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>。</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">瞭解如何建立工作環境</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>。</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="doc">設定Google Cloud</block>
-  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">啟用 Cloud Volumes Service 此功能</block>
-  <block id="db680318754971180f12e167ae5f6325" category="paragraph">在 Google Cloud Shell 中、執行下列命令來啟用 Cloud Volumes Service 此功能：</block>
   <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph">「 gCloud --project =&lt;my-cs-project &gt; 服務可支援 cloudvolumesgcp-api.netapp.com`</block>
-  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">設定服務帳戶</block>
   <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">建立新的服務帳戶</block>
   <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">將新的服務帳戶成員新增至專案、並指派給專案特定的角色（權限）</block>
   <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">為用於驗證 Google 的服務帳戶建立並下載金鑰配對</block>
@@ -193,7 +178,6 @@
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
   <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">您可以在 Cloud Volumes Service Google Cloud 的全新或現有版本中建立 NFS 或 SMB Volume 。雲端磁碟區目前支援適用於 Linux 和 UNIX 用戶端的 NFSv3 和 NFSv4.1 、以及適用於 Windows 用戶端的 SMB 3.x 。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
-  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">如果您想在 GCP 中使用 SMB 、則必須設定 DNS 和 Active Directory 。</block>
   <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">規劃建立 SMB Volume 時、您必須擁有可連線的 Windows Active Directory 伺服器。建立磁碟區時、您將輸入此資訊。此外、請確定管理使用者能夠在指定的組織單位（ OU ）路徑中建立機器帳戶。</block>
   <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">選取工作環境、然後按一下 * 新增 Volume * 。</block>
   <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">在「詳細資料與位置」頁面中、輸入有關磁碟區的詳細資料：</block>
@@ -259,7 +243,6 @@
   <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">SMB 磁碟區的掛載指示</block>
   <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">依照執行個體的掛載指示來對應網路磁碟機。</block>
-  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">完成掛載指示中的步驟之後、您已成功將雲端磁碟區掛載至 GCP 執行個體。</block>
   <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">如果您變更了DNS伺服器或Active Directory網域、您需要修改Cloud Volumes Service 位於支援區的SMB伺服器、才能繼續將儲存設備提供給用戶端。</block>
   <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">管理Active Directory組態</block>
   <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">指定 SMB 伺服器的設定：</block>
@@ -283,13 +266,9 @@
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">具有三個點的圖示。</block>
   <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">按一下 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> 按一下頁面頂端的按鈕、然後按一下「 * 移除 Cloud Volumes Service 此功能 * 」。</block>
   <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">探索Cloud Volumes Service Google Cloud區域或BlueXP Volume不需付費。</block>
-  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP可探索Cloud Volumes Service GCP訂閱和Volume的現有功能。請參閱<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未設定訂閱、</block>
   <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">請使用BlueXP聊天室、瞭解Cloud Volumes Service 有關BlueXP中的功能運作的一般問題。</block>
   <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">NetApp BlueXP：Cloud Volumes Service Google Cloud的基礎</block>
   <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
-  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">從Google啟用Cloud Volumes Service 適用於GCP API的功能、讓BlueXP能夠管理訂閱和雲端磁碟區。</block>
-  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">從Google建立服務帳戶和角色、讓BlueXP能夠存取Cloud Volumes Service 您的適用於Google Cloud的支援服務帳戶。</block>
-  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">在BluXP中、按一下*新增工作環境*&gt;* Google Cloud *&gt;* Cloud Volumes Service S供*、然後提供服務帳戶和Google Cloud專案的詳細資料。</block>
   <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">您可以從Cloud Volumes Service BlueXP移除適用於Google Cloud訂閱的功能、以及所有現有的磁碟區。磁碟區不會刪除、只會從BlueXP介面移除。</block>
   <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">從Cloud Volumes Service BlueXP移除</block>
   <block id="b14d1e068c8031b86314c9902472be25" category="admonition">不Cloud Volumes Service 支援從BlueXP刪除您的for Google Cloud訂閱。您只能透過 Google Cloud Console 執行此作業。</block>
@@ -358,11 +337,7 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
-  <block id="60c9d220e03340a34dceea57e2b0222f" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 啟用 Cloud Volumes Service 此功能</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
-  <block id="20ed45d1c1c6459f7df4f8fc85d64ba0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 建立 GCP 服務帳戶並下載認證資料</block>
-  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
-  <block id="f14277432a50a858ea51d3dbce562088" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 建立 Cloud Volumes Service GCP 工作環境的功能</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">複製上述步驟2的帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
@@ -475,4 +450,26 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="900cacb5971edc5fdcfdb258d6dba1e4" category="paragraph">無論您是否已從 Google Cloud Console 建立磁碟區、或是您剛註冊 Cloud Volumes Service for Google Cloud 、但尚未建立磁碟區、第一步是根據您的 Google Cloud 訂閱、為這些磁碟區建立工作環境。</block>
+  <block id="fa7b981545402e8580bddc3adf9cef7a" category="paragraph">如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。如果您尚未新增任何雲端磁碟區以訂閱 Google Cloud 、則在建立新的工作環境之後就可以這麼做。</block>
+  <block id="c99f684b010bc8f7b4fa8ee549806a49" category="inline-image-macro">新增 Cloud Volumes Service for Google Cloud 訂閱認證的螢幕擷取畫面。</block>
+  <block id="8ee75aba94ba04e51fe54e738c576517" category="paragraph"><block ref="8ee75aba94ba04e51fe54e738c576517" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXP 可以探索現有的 Cloud Volumes Service for Google Cloud 訂閱和大量資料。請參閱<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未設定訂閱、</block>
+  <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">如果您想在 Google Cloud 中使用 SMB 、則必須設定 DNS 和 Active Directory 。</block>
+  <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">完成掛載指示中的步驟後、您已成功將雲端磁碟區掛載至 Google Cloud 執行個體。</block>
+  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes ONTAP for Google Cloud 。</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">快速入門工作流程</block>
+  <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes Service for Google Cloud 。</block>
+  <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
+  <block id="3cbe6a41e088877beb0fdc0f033c9db7" category="paragraph">從 Google 啟用 Cloud Volumes Service API 並建立服務帳戶。</block>
+  <block id="333d97983b982d95aa66476af120900b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="17f92a667c153c4b71522d9f7388a1be" category="inline-link-macro-rx"></block></block>
+  <block id="e6892525cc09832738d2159589a818d6" category="paragraph">在 BlueXP 中、按一下 * 新增工作環境 * &gt; * Google Cloud * &gt; * Cloud Volumes Service * 、然後提供服務帳戶和 Google Cloud 專案的詳細資料。</block>
+  <block id="2c5e9cc90fb536b4aa1861bd954ecd97" category="section-title">步驟 1 ：啟用 Cloud Volumes Service API</block>
+  <block id="1c5b39013ed220fe7410c674acea6cb3" category="paragraph">啟用 Cloud Volumes Service API 、讓 BlueXP 能夠管理訂閱和雲端磁碟區。</block>
+  <block id="62fe79c8badc2a334d45a4c907747183" category="list-text">從 Google Cloud 啟動 Cloud Shell 工作階段。</block>
+  <block id="f7b252cf92cffa8bd8dccbbfdc5bf153" category="inline-link">Google Cloud 文件：啟動 Cloud Shell</block>
+  <block id="774582c0b01eadfb3f8f0775e15a5220" category="paragraph"><block ref="774582c0b01eadfb3f8f0775e15a5220" category="inline-link-rx"></block></block>
+  <block id="7d4858380df2c179560798250655ff74" category="list-text">執行下列命令以啟用 Cloud Volumes Service API ：</block>
+  <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">步驟 2 ：設定服務帳戶</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
 </blocks>

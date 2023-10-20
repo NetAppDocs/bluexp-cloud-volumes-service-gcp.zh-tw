@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, set up cloud volumes service 
-summary: 請依照下列步驟快速入門、或依照連結取得完整詳細資料。 
+summary: 設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes ONTAP for Google Cloud 。 
 ---
-= Google Cloud的功能快速入門Cloud Volumes Service
+= 快速入門工作流程
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,25 +14,12 @@ summary: 請依照下列步驟快速入門、或依照連結取得完整詳細�
 
 
 [role="lead"]
-請依照下列步驟快速入門、或依照連結取得完整詳細資料。
+設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes Service for Google Cloud 。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 啟用 Cloud Volumes Service 此功能
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] link:task-set-up-google-cloud.html["設定Google Cloud"]
 [role="quick-margin-para"]
-從Google啟用Cloud Volumes Service 適用於GCP API的功能、讓BlueXP能夠管理訂閱和雲端磁碟區。
+從 Google 啟用 Cloud Volumes Service API 並建立服務帳戶。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] link:task-create-working-env.html["建立工作環境"]
 [role="quick-margin-para"]
-link:task-set-up-google-cloud.html["瞭解如何啟用API"]。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 建立 GCP 服務帳戶並下載認證資料
-[role="quick-margin-para"]
-從Google建立服務帳戶和角色、讓BlueXP能夠存取Cloud Volumes Service 您的適用於Google Cloud的支援服務帳戶。
-
-[role="quick-margin-para"]
-link:task-set-up-google-cloud.html#set-up-a-service-account["瞭解如何設定服務帳戶"]。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 建立 Cloud Volumes Service GCP 工作環境的功能
-[role="quick-margin-para"]
-在BluXP中、按一下*新增工作環境*>* Google Cloud *>* Cloud Volumes Service S供*、然後提供服務帳戶和Google Cloud專案的詳細資料。
-
-[role="quick-margin-para"]
-link:task-create-working-env.html["瞭解如何建立工作環境"]。
+在 BlueXP 中、按一下 * 新增工作環境 * > * Google Cloud * > * Cloud Volumes Service * 、然後提供服務帳戶和 Google Cloud 專案的詳細資料。

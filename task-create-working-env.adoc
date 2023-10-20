@@ -16,9 +16,9 @@ summary: 在Cloud Volumes Service BlueXP中建立適用於Google Cloud的功能�
 [role="lead"]
 在Cloud Volumes Service BlueXP中建立適用於Google Cloud的支援環境、以便建立及管理磁碟區和快照。
 
-無論您已經從Google Cloud Console建立磁碟區、或是剛註冊Cloud Volumes Service 使用Google Cloud的版本、但目前還沒有磁碟區、第一步是根據您的GCP訂閱、為磁碟區建立工作環境。
+無論您是否已從 Google Cloud Console 建立磁碟區、或是您剛註冊 Cloud Volumes Service for Google Cloud 、但尚未建立磁碟區、第一步是根據您的 Google Cloud 訂閱、為這些磁碟區建立工作環境。
 
-如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。如果您尚未新增任何雲端磁碟區以供 GCP 訂閱、請在建立新的工作環境之後再新增。
+如果此訂閱已存在雲端磁碟區、則磁碟區會出現在新的工作環境中。如果您尚未新增任何雲端磁碟區以訂閱 Google Cloud 、則在建立新的工作環境之後就可以這麼做。
 
 
 TIP: 如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針對每個專案執行此工作。
@@ -41,7 +41,7 @@ TIP: 如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針
 .. 選取 Google Cloud 專案的名稱。
 .. 按一下 * 繼續 * 。
 +
-image:screenshot_add_cvs_gcp_credentials.png["為 Cloud Volumes Service GCP 訂閱新增認證的快照。"]
+image:screenshot_add_cvs_gcp_credentials.png["新增 Cloud Volumes Service for Google Cloud 訂閱認證的螢幕擷取畫面。"]
 
 
 

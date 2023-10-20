@@ -47,7 +47,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions#cvsGc["檢視支援的Goog
 
 == 開始之前
 
-BlueXP可探索Cloud Volumes Service GCP訂閱和Volume的現有功能。請參閱 https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud 文件"^] 如果您尚未設定訂閱、
+BlueXP 可以探索現有的 Cloud Volumes Service for Google Cloud 訂閱和大量資料。請參閱 https://cloud.google.com/solutions/partners/netapp-cloud-volumes/["NetApp Cloud Volumes Service for Google Cloud 文件"^] 如果您尚未設定訂閱、
 
 
 

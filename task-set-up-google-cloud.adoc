@@ -18,15 +18,24 @@ BlueXP需要透過Cloud Volumes Service Google Cloud服務帳戶存取功能、�
 
 
 
-== 啟用 Cloud Volumes Service 此功能
+== 步驟 1 ：啟用 Cloud Volumes Service API
 
-在 Google Cloud Shell 中、執行下列命令來啟用 Cloud Volumes Service 此功能：
+啟用 Cloud Volumes Service API 、讓 BlueXP 能夠管理訂閱和雲端磁碟區。
 
+.步驟
+. 從 Google Cloud 啟動 Cloud Shell 工作階段。
++
+https://cloud.google.com/shell/docs/launching-cloud-shell["Google Cloud 文件：啟動 Cloud Shell"^]
+
+. 執行下列命令以啟用 Cloud Volumes Service API ：
++
 「 gCloud --project =<my-cs-project > 服務可支援 cloudvolumesgcp-api.netapp.com`
 
 
 
-== 設定服務帳戶
+
+
+== 步驟 2 ：設定服務帳戶
 
 完成下列工作、以便BlueXP存取您的Google Cloud專案：
 

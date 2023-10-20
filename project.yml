@@ -14,12 +14,14 @@ sidebar:
   - title: 適用於Google Cloud文件Cloud Volumes Service
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 深入瞭 Cloud Volumes Service 解適用於 Google Cloud 的功能
       url: "/concept-cvs-gcp.html"
-    - title: 快速入門
+    - title: 快速入門工作流程
       url: "/task-quick-start.html"
     - title: 設定Google Cloud
       url: "/task-set-up-google-cloud.html"
