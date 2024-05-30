@@ -23,7 +23,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">開啟工作環境。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">在確認對話方塊中、按一下 * 移除 * 。</block>
@@ -172,7 +171,6 @@
   <block id="29d3428cb13e4cac2f40807938da5dc8" category="list-text"><block ref="29d3428cb13e4cac2f40807938da5dc8" category="inline-link-macro-rx"></block></block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
   <block id="9be5a2eae9bab39aee7d0161c137cd43" category="doc">建立及掛載磁碟區</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">建立磁碟區</block>
@@ -310,7 +308,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
@@ -457,7 +454,6 @@
   <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXP 可以探索現有的 Cloud Volumes Service for Google Cloud 訂閱和大量資料。請參閱<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未設定訂閱、</block>
   <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">如果您想在 Google Cloud 中使用 SMB 、則必須設定 DNS 和 Active Directory 。</block>
   <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">完成掛載指示中的步驟後、您已成功將雲端磁碟區掛載至 Google Cloud 執行個體。</block>
-  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes ONTAP for Google Cloud 。</block>
   <block id="65ce4dce26160be29539699c6623e379" category="doc">快速入門工作流程</block>
   <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">設定 Google Cloud 、然後建立工作環境、即可開始使用 Cloud Volumes Service for Google Cloud 。</block>
   <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
@@ -472,4 +468,5 @@
   <block id="7d4858380df2c179560798250655ff74" category="list-text">執行下列命令以啟用 Cloud Volumes Service API ：</block>
   <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">步驟 2 ：設定服務帳戶</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
 </blocks>

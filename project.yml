@@ -47,28 +47,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 深入瞭 Cloud Volumes Service 解適用於 Google Cloud 的功能
-      url: concept-cvs-gcp.html
-    - title: 快速入門
-      url: task-quick-start.html
-  - title: 使用Cloud Volumes Service
-    links:
-    - title: 建立磁碟區
-      url: task-create-volumes.html
-    - title: 管理雲端磁碟區快照
-      url: task-manage-snapshots.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://cloud.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
