@@ -1,0 +1,15 @@
+= 支援Cloud Volumes Service for Google Cloud
+:allow-uri-read: 
+
+
+
+
+=== 支援Cloud Volumes Service for Google Cloud
+
+您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：
+
+* 設定及建立工作環境
+* 為Linux和UNIX用戶端建立及管理NFSv3和NFSv4.1磁碟區
+* 為Windows用戶端建立及管理SMB 3.x磁碟區
+* 建立、刪除及還原Volume快照
+
